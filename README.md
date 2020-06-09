@@ -2,9 +2,7 @@
 
 
 This repository contains implementations of various CRF-LSTM models. More details about these models can be found in the paper: [**Structured Prediction Models for RNN based Sequence Labeling in clinical text**](https://arxiv.org/abs/1608.00612), EMNLP 2016.
-```bash
-git clone https://github.com/abhyudaynj/LSTM-CRF-models.git
-```
+
 
 The original code for the paper was written in Theano and Numpy. This is a slightly more optimized version of the original code with all the main computations entirely in Theano\Lasagne. It also has additional support for incorporating handcrafted features and UMLS Semantic Types. UMLS Semantic types can be extracted by using the [**MetaMap**](https://metamap.nlm.nih.gov/) software. MetaMap requires a UMLS License. To run without UMLS, keep the -umls option to 0. 
 
